@@ -50,7 +50,7 @@ trainedmodel = opt.m
 
 PATH_TO_CKPT = modeldir + trainedmodel + '/frozen_inference_graph.pb'
 # List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = 'data/' + 'mscoco_label_map.pbtxt'
+PATH_TO_LABELS = 'mscoco_label_map.pbtxt'
 NUM_CLASSES = 80
 FRACTION = opt.f
 filename = ntpath.basename(opt.i)
